@@ -36,3 +36,6 @@ def main():
     else:
         st.subheader('출력 결과')
         st.write('조건에 해당하는 데이터가 없습니다.')
+
+if __name__ == '__main__':
+    main()
