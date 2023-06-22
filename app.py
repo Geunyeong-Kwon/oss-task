@@ -41,6 +41,5 @@ def main():
 def show_map(data):
     # 지도 생성 및 마커 추가 작업
     # ...
-
 if __name__ == '__main__':
     main()
