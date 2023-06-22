@@ -15,7 +15,7 @@ for index, row in df.iterrows():
     lon = row['lon']
     
     # API 요청 보내기
-    api_key = 'KU4sbUhkqLCoOaTz0eNuf5DBCORUzbcL7XaHhqi4qSY2%2Bs%2FFvwIGBBiG4tbIxRI%2F1ftQTPvmeQstoiwXt4I2tw%3D%3D'
+    api_key = ''
     url = f'http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getMinuDustFrcstDspth?latlng={lat},{lon}&key={api_key}'
     response = requests.get(url)
     data = response.json()
