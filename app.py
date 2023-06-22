@@ -1,8 +1,5 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-import graphviz as graphviz
-import matplotlib.pyplot as plt
 
 st.write('#Youtube view')
 st.write('## raw')
