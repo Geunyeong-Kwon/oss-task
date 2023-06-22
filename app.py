@@ -36,8 +36,3 @@ def main():
     else:
         st.subheader('출력 결과')
         st.write('조건에 해당하는 데이터가 없습니다.')
-
-# 지도 출력 함수
-def show_map(data):
-    # 지도 생성 및 마커 추가 작업
-    # ...
